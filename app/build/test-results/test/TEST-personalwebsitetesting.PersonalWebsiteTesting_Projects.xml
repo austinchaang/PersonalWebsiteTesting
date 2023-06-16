@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="personalwebsitetesting.PersonalWebsiteTesting_Projects" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-06-16T03:42:03" hostname="Austins-MacBook-Air.local" time="213.245">
+  <properties/>
+  <testcase name="personalWebsiteTestingGitHubLink" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="14.05"/>
+  <testcase name="personalWebsiteV1GitHubLink" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="14.125"/>
+  <testcase name="gitHubButton" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="18.112"/>
+  <testcase name="linkedInButton" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="16.08"/>
+  <testcase name="projectsURL" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="17.213"/>
+  <testcase name="projectsHTTP200" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="13.677"/>
+  <testcase name="personalWebsiteV1Link" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="22.415"/>
+  <testcase name="interestsURL" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="33.921"/>
+  <testcase name="homeURL" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="16.283"/>
+  <testcase name="emailButton" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="13.218"/>
+  <testcase name="jsProjectLink" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="16.594"/>
+  <testcase name="jsProjectGitHubLink" classname="personalwebsitetesting.PersonalWebsiteTesting_Projects" time="17.556"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 31306
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886928.798][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:09 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 7387
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886932.952][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:13 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 5738
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886941.830][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:21 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 49069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886945.563][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:25 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 25613
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886957.403][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 35325
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886962.240][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:42 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 11281
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886974.577][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:54 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 8481
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886978.958][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:42:59 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 7948
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886991.636][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:11 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 14923
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686886996.335][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:16 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 26021
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887008.593][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:28 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 15070
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887012.866][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:33 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 37281
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887021.107][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:41 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 14693
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887024.990][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:43:45 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 3915
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887044.204][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:04 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 12837
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887048.603][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:08 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 35659
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887077.699][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 30080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887082.320][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:42 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 17209
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887093.477][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:53 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 41741
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887098.768][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:44:58 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 47101
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887108.583][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:45:08 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 26906
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887115.134][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:45:15 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 19749
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887124.874][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:45:24 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 113.0.5672.24 (65f30d4e8051264233c679c7cd3743679f15339d-refs/branch-heads/5672@{#243}) on port 17960
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1686887129.678][WARNING]: This version of ChromeDriver has not been tested with Chrome version 114.
+Jun. 15, 2023 8:45:29 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

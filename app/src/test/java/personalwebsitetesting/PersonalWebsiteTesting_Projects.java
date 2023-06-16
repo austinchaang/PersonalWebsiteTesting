@@ -34,6 +34,7 @@ public class PersonalWebsiteTesting_Projects {
     String interestsURL = "https://austinchang.ca/interests";
     String websiteV1URL = "https://austinchaang.github.io/austinchangwebsiteversion1.github.io/";
     String websiteV1GitHubURL = "https://github.com/austinchaang/austinchangwebsiteversion1.github.io";
+    String websiteTestingGitHubURL = "https://github.com/austinchaang/PersonalWebsiteTesting";
     String jsProjectURL = "https://austinchang.ca/jsproject";
     String jsProjectGitHubURL = "https://github.com/austinchaang/tictactoe";
     String linkedInURL = "https://www.linkedin.com/in/austinjchang/";
@@ -70,13 +71,13 @@ public class PersonalWebsiteTesting_Projects {
         driver.quit();
     }
 
-    // WT10: HTTP 200 status code for the Project Page
+    // WT-P1: HTTP 200 status code for the Project Page
     @Test public void projectsHTTP200() {
         int statusCode = getStatusCode(projectsURL);
         Assert.assertEquals(HttpURLConnection.HTTP_OK, statusCode);
     }
 
-    //WT11: Testing home URL link
+    //WT-P2: Testing home URL link
     @Test public void homeURL() {
         // Wait for the homeURL element to be clickable
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getHomeURL()));
@@ -86,7 +87,7 @@ public class PersonalWebsiteTesting_Projects {
         Assert.assertEquals(homeURL, driver.getCurrentUrl());
     }
     
-    //WT12: Testing projects URL link
+    //WT-P3: Testing projects URL link
     @Test public void projectsURL() {
         // Wait for the projectsURL element to be clickable
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getProjectsURL()));
@@ -96,7 +97,7 @@ public class PersonalWebsiteTesting_Projects {
         Assert.assertEquals(projectsURL, driver.getCurrentUrl());
     }
 
-    //WT13: Testing interests URL link
+    //WT-P4: Testing interests URL link
     @Test public void interestsURL() {
         // Wait for the interestsURL element to be clickable
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getInterestsURL()));
@@ -106,7 +107,7 @@ public class PersonalWebsiteTesting_Projects {
         Assert.assertEquals(interestsURL, driver.getCurrentUrl());
     }
 
-    //WT14: Testing personal website v1 project link
+    //WT-P5: Testing personal website v1 project link
     @Test public void personalWebsiteV1Link() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getWebsiteV1Link()));
         WebElement websiteV1Link = driver.findElement(projectsPage.getWebsiteV1Link());
@@ -116,7 +117,7 @@ public class PersonalWebsiteTesting_Projects {
         Assert.assertEquals(websiteV1URL, driver.getCurrentUrl());
     }
 
-    //WT15: Testing personal website v1 github link opens in a new tab correctly
+    //WT-P6: Testing personal website v1 github link opens in a new tab correctly
     @Test public void personalWebsiteV1GitHubLink() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getWebsiteGitHubLink()));
         WebElement websiteV1GitHubLink = driver.findElement(projectsPage.getWebsiteGitHubLink());
@@ -135,7 +136,26 @@ public class PersonalWebsiteTesting_Projects {
         driver.switchTo().window(homeWindowHandle);
     }
 
-    //WT16: Testing js project link
+    //WT-P7: Testing personal website testing github link opens in a new tab correctly
+    @Test public void personalWebsiteTestingGitHubLink() {
+        wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getWebsiteTestingGitHubLink()));
+        WebElement websiteTestingGitHubLink = driver.findElement(projectsPage.getWebsiteTestingGitHubLink());
+        String href = websiteTestingGitHubLink.getAttribute("href");
+        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", websiteTestingGitHubLink);
+        jsExecutor.executeScript("window.open(arguments[0])", href);
+        String homeWindowHandle = driver.getWindowHandle();
+        Set<String> windowHandles = driver.getWindowHandles();
+        for (String handle : windowHandles) {
+            if (!handle.equals(homeWindowHandle)) {
+                driver.switchTo().window(handle);
+                break;
+            }
+        }
+        Assert.assertTrue(driver.getCurrentUrl().startsWith(websiteTestingGitHubURL));
+        driver.switchTo().window(homeWindowHandle);
+    }
+
+    //WT-P8: Testing js project link
     @Test public void jsProjectLink() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getjsProjectLink()));
         WebElement jsProjectLink = driver.findElement(projectsPage.getjsProjectLink());
@@ -145,7 +165,7 @@ public class PersonalWebsiteTesting_Projects {
         Assert.assertEquals(jsProjectURL, driver.getCurrentUrl());
     }
 
-    //WT17: Testing that js project github link opens in a new tab correctly
+    //WT-P9: Testing that js project github link opens in a new tab correctly
     @Test public void jsProjectGitHubLink() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getjsProjectGitHubLink()));
         WebElement jsProjectGitHubLink = driver.findElement(projectsPage.getjsProjectGitHubLink());
@@ -164,7 +184,7 @@ public class PersonalWebsiteTesting_Projects {
         driver.switchTo().window(homeWindowHandle);
     }
 
-    //WT18: Testing linkedIn button link opens in a new tab correctly
+    //WT-P10: Testing linkedIn button link opens in a new tab correctly
     @Test public void linkedInButton() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getLinkedInButton()));
         WebElement linkedInButton = driver.findElement(projectsPage.getLinkedInButton());
@@ -185,7 +205,7 @@ public class PersonalWebsiteTesting_Projects {
         driver.switchTo().window(homeWindowHandle);
     }
 
-    //WT19: Testing GitHub button link opens in a new tab correctly
+    //WT-P11: Testing GitHub button link opens in a new tab correctly
     @Test public void gitHubButton() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getGitHubButton()));
         WebElement gitHubButton = driver.findElement(projectsPage.getGitHubButton());
@@ -204,7 +224,7 @@ public class PersonalWebsiteTesting_Projects {
         driver.switchTo().window(homeWindowHandle);
     }
 
-    //WT20: Testing email button prompts user to open email app
+    //WT-P12: Testing email button prompts user to open email app
     @Test public void emailButton() {
         wait.until(ExpectedConditions.elementToBeClickable(projectsPage.getEmailButton()));
         WebElement emailButton = driver.findElement(projectsPage.getEmailButton());

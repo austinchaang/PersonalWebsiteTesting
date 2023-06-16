@@ -14,6 +14,7 @@ public class ProjectsPage {
     By websiteV1GitHub;
     By jsProjectLink;
     By jsProjectGitHub;
+    By websiteTestingGitHubLink;
     By linkedInButton = By.id("linkedinButton");
     By githubButton = By.id("githubButton");
     By emailButton = By.id("emailButton");
@@ -45,6 +46,11 @@ public class ProjectsPage {
     public By getWebsiteGitHubLink() {
         websiteV1GitHub = By.id("websiteV1GitHubLink");
         return websiteV1GitHub;
+    }
+
+    public By getWebsiteTestingGitHubLink() {
+        websiteTestingGitHubLink = By.id("personalWebsiteTestingGitHubLink");
+        return websiteTestingGitHubLink;
     }
 
     public By getjsProjectLink() {
